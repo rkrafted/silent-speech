@@ -1,0 +1,165 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-16T19:13:23",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "tab_electrode.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'R E6' on F.Silkscreen",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 121.0
+                    },
+                    "uuid": "e8938647-c97b-495c-8abb-8275595e94d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'E3 E5' on F.Silkscreen",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 122.0
+                    },
+                    "uuid": "03c3b9f1-ce1e-467f-8260-e04437fe4b2e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'E4 E2' on F.Silkscreen",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 123.0
+                    },
+                    "uuid": "ad69b4b2-3d97-42d0-833c-9940973fea34"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'E1 E8' on F.Silkscreen",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 124.0
+                    },
+                    "uuid": "762e1403-4996-4c7a-aec7-35f70d1a4ce0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'B E7' on F.Silkscreen",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 125.0
+                    },
+                    "uuid": "f477a0f2-c9d0-434d-8c01-95be4e3757ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'C' on F.Silkscreen",
+                    "pos": {
+                        "x": 103.399999,
+                        "y": 106.73
+                    },
+                    "uuid": "741391ea-e247-4d11-8b1a-aefd988397d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'G' on F.Silkscreen",
+                    "pos": {
+                        "x": 109.8,
+                        "y": 109.27
+                    },
+                    "uuid": "f54c7fb2-f7e2-49b4-bed4-91c6d6cb8584"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'G' on F.Silkscreen",
+                    "pos": {
+                        "x": 109.8,
+                        "y": 109.27
+                    },
+                    "uuid": "f54c7fb2-f7e2-49b4-bed4-91c6d6cb8584"
+                },
+                {
+                    "description": "Pad 2 [GND] of J2 on F.Cu",
+                    "pos": {
+                        "x": 108.455,
+                        "y": 109.27
+                    },
+                    "uuid": "b4adeb70-fadc-4a88-8a2f-f59c78e00192"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

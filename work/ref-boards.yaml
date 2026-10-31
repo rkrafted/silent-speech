@@ -1,0 +1,16 @@
+id: ref-boards
+goal: |
+  Download two open ADS1298 reference boards for layout comparison. Run exactly these from the repo root and wait for them
+  (no podman; plain git works in this sandbox). Do not edit anything else.
+    mkdir -p hw/pod/ref/ext
+    git clone --depth 1 https://github.com/RobertCsordas/MobilECG-II hw/pod/ref/ext/MobilECG-II
+    git clone --depth 1 https://github.com/shriram-m/12-lead-holter-ecg hw/pod/ref/ext/12-lead-holter-ecg
+  hw/pod/ref/ is gitignored, so there is nothing to commit. Finish as soon as the check passes.
+files: []
+check:
+  - test -d hw/pod/ref/ext/MobilECG-II/Hardware
+  - test -d hw/pod/ref/ext/12-lead-holter-ecg/hardware
+kind: script
+origin: Raimonds 2026-10-11 "allright lesgo" (compare MobilECG-II ADS1298 layout before ours)
+priority: 5
+created: 2026-10-11

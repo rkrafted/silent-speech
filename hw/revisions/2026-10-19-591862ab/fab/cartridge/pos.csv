@@ -1,0 +1,4 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J1","cell plug (JST SH, pin 1 = +)","JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal",120.600000,-127.200000,-90.000000,top
+"P1","Harwin P70-1100045R BATT+","Pogo_SMD_tall_pad2.0",110.900000,-126.100000,0.000000,top
+"P2","Harwin P70-1100045R BATT-","Pogo_SMD_tall_pad2.0",112.400000,-128.600000,0.000000,top

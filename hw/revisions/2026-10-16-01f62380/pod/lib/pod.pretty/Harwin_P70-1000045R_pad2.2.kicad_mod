@@ -1,0 +1,13 @@
+(footprint "Harwin_P70-1000045R_pad2.2"
+	(version 20241229)
+	(generator "pod")
+	(layer "F.Cu")
+	(descr "Harwin P70-1000045R SMD spring pin, recommended pad 2.20 mm (datasheet), 3.5 mm free / 2.9 mm working height")
+	(tags "pogo spring contact")
+	(attr smd)
+	(property "Reference" "REF**" (at 0 -2.2 0) (layer "F.SilkS") (effects (font (size 0.6 0.6) (thickness 0.1))))
+	(property "Value" "P70-1000045R" (at 0 2.2 0) (layer "F.Fab") (effects (font (size 0.6 0.6) (thickness 0.1))))
+	(fp_circle (center 0 0) (end 0.9 0) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab"))
+	(fp_circle (center 0 0) (end 1.35 0) (stroke (width 0.05) (type solid)) (fill no) (layer "F.CrtYd"))
+	(pad "1" smd circle (at 0 0) (size 2.2 2.2) (layers "F.Cu" "F.Paste" "F.Mask"))
+)

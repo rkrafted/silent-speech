@@ -1,0 +1,3 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J1","2x5 2.54 SMD vertical","PinHeader_2x05_P2.54mm_Vertical_SMD",114.000000,-123.000000,0.000000,top
+"J2","1x2 2.54 SMD vertical (link)","PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left",106.800000,-108.000000,0.000000,top

@@ -1,0 +1,13 @@
+id: vc-scan
+goal: |
+  Run the organisation fetch. Do not edit the script; run exactly this from the repo root, in the foreground, and
+  wait (about 8-12 minutes). No podman. Fix only environment problems and say what you fixed.
+    ORG_OUT=research/jaw/raw/vc python3 tools/orgs/fetch_org.py tools/orgs/venture-catalysts.json
+  research/jaw/raw/ is gitignored. Commit tools/orgs/ only. Finish as soon as the check passes.
+files: [tools/orgs/fetch_org.py, tools/orgs/venture-catalysts.json]
+check:
+  - test -s research/jaw/raw/vc/org.json
+kind: script
+origin: Raimonds 2026-10-16 "you can read up on all people of venture catalysts and who funds it to get more context"
+priority: 1
+created: 2026-10-16

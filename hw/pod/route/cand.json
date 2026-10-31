@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-16T16:46:25",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "pod_cand.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation ( clearance 0.0900 mm; actual 0.0485 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 1.0065 mm",
+                    "pos": {
+                        "x": 118.75,
+                        "y": 119.0
+                    },
+                    "uuid": "7d0612d3-866d-47d2-b7ca-d1a8db3baf52"
+                },
+                {
+                    "description": "Pad 52 [+3V3] of U1 on B.Cu",
+                    "pos": {
+                        "x": 118.25,
+                        "y": 119.6625
+                    },
+                    "uuid": "8b215d4a-ccf9-4385-9ff0-8ccd598b19fe"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+wrote /home/neo/theprojects/queue/silent-speech/hw/pod/pod.kicad_sch: 104 parts, 23 BOM lines
+Found 0 violations
+Saved ERC Report to erc.rpt
+all rules passed
+wrote /home/neo/theprojects/queue/silent-speech/hw/pod/lib/pod.pretty/u-blox_NINA-B306.kicad_mod 71 pads
+GND fan-out: 63 vias, no room for: U7.6, U2.12, U2.14, C12.2, C13.2, U1.20, U1.23, U1.25, U1.31, U1.42, U1.44, U1.46, U1.51, U1.53, U1.57, U1.58, C17.2
+wrote /home/neo/theprojects/queue/silent-speech/hw/pod/pod.kicad_pcb: 105/105 footprints placed
+19:00:17: Debug: Adding duplicate image handler for 'PNG file'
+19:00:17: Debug: Adding duplicate image handler for 'JPEG file'
+19:00:17: Debug: Adding duplicate image handler for 'TIFF file'
+19:00:17: Debug: Adding duplicate image handler for 'GIF file'
+19:00:17: Debug: Adding duplicate image handler for 'PNM file'
+19:00:17: Debug: Adding duplicate image handler for 'PCX file'
+19:00:17: Debug: Adding duplicate image handler for 'IFF file'
+19:00:17: Debug: Adding duplicate image handler for 'Windows icon file'
+19:00:17: Debug: Adding duplicate image handler for 'Windows cursor file'
+19:00:17: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+19:00:17: Debug: Adding duplicate image handler for 'TGA file'
+19:00:17: Debug: Adding duplicate image handler for 'XPM file'
+java -jar /home/neo/tools/freerouting/freerouting.jar -de /home/neo/theprojects/queue/silent-speech/hw/pod/route/pod.dsn -do /home/neo/theprojects/queue/silent-speech/hw/pod/route/pod.ses -mp 100 --gui.enabled=false
+widened 103 necked-down tracks to 0.09 mm
+violations: {('error', 'clearance'): 2, ('warning', 'via_dangling'): 1, ('warning', 'lib_footprint_issues'): 105}
+unrouted: 4
+schematic parity issues: 2
+19:00:32: Debug: Adding duplicate image handler for 'PNG file'
+19:00:32: Debug: Adding duplicate image handler for 'JPEG file'
+19:00:32: Debug: Adding duplicate image handler for 'TIFF file'
+19:00:32: Debug: Adding duplicate image handler for 'GIF file'
+19:00:32: Debug: Adding duplicate image handler for 'PNM file'
+19:00:32: Debug: Adding duplicate image handler for 'PCX file'
+19:00:32: Debug: Adding duplicate image handler for 'IFF file'
+19:00:32: Debug: Adding duplicate image handler for 'Windows icon file'
+19:00:32: Debug: Adding duplicate image handler for 'Windows cursor file'
+19:00:32: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+19:00:32: Debug: Adding duplicate image handler for 'TGA file'
+19:00:32: Debug: Adding duplicate image handler for 'XPM file'
+routed +BATT (11 cells)
+routed +3V3 (45 cells)
+island on B near (112.89, 109.06): no room for a via
+stitching vias added: 1
+finished 2, left: ['GND pour island (handled by stitching)', 'GND pour island (handled by stitching)']
+clearance nudges applied: 2
+routed U1.51 to GND: 37 cells
+Found 0 violations
+Found 1 unconnected items
+Found 0 schematic parity issues
+Saved DRC Report to route/drc.json
+Saved board
+exit=5

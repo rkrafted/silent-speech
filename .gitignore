@@ -1,0 +1,41 @@
+.venv/
+.scratch/
+__pycache__/
+*.pyc
+.env
+.env.*
+state/
+data/raw/
+*.db
+*.sqlite
+node_modules/
+artifacts/
+gpu_jobs/*.log
+*.safetensors
+*.gguf
+
+# downloaded research PDFs are not committed
+research_pdfs/
+research/jaw/raw/
+
+# Generated citation index: every record and sentence lives in
+# scripts/build_sources_gaps.py, which rebuilds this file offline. It is a .jsonl, so the
+# raw-data scan would report a 28 KB hand-written index as a downloaded dump. The runner
+# carries the untracked file into the main checkout when it checks done_when.
+research/jaw/sources-patents-gaps.jsonl
+
+# pod v1 vendor datasheets. These ARE committed (they are public vendor documents, and the
+# repo already tracks 211 reference PDFs). The runner re-checks `done_when` in the MAIN
+# checkout after merging the item's branch: gitignored files never get there, so a gitignored
+# ds/ made the check fail with "ls: cannot access 'hw/pod/ref/ds/*.pdf'". Everything else
+# under hw/pod/ref (schematic dumps, XLSX, JPG) stays ignored.
+hw/pod/ref/*
+!hw/pod/ref/ds/
+!hw/pod/ref/ds2/
+!hw/pod/ref/ti_ads1298ecgfe_ug.pdf
+
+# Citation index for research/jaw/articulation-design.md. Every record and sentence lives in
+# scripts/build_sources_articulation.py, which rebuilds it offline. A .jsonl is classified as a
+# downloaded dump by the raw-data scan; the runner's carry_results copies the untracked file into
+# the main checkout when it re-checks done_when.
+research/jaw/sources-articulation-design.jsonl

@@ -1,0 +1,17 @@
+id: repo-scan-v2
+goal: |
+  Run the GitHub repo scan for the silent-speech pod. Do not edit the two scripts; just run them in order from the repo root
+  and fix only environment problems (say what you fixed in your handoff).
+  1. Fetch (directly, NOT podman: podman does not work in this sandbox; do not try to configure it):
+     REPOSCAN_TOKEN_FILE=$HOME/shithub/token REPOSCAN_OUT=research/jaw/raw/repos python3 tools/reposcan/fetch.py
+     It takes about 3-6 minutes. Run it in the foreground and wait; do nothing else meanwhile. Never print or copy the token file.
+  Then commit tools/reposcan/ (raw/ is gitignored). Ranking is done separately afterwards, not by you.
+files: [tools/reposcan/fetch.py, tools/reposcan/rank.py]
+check:
+  - test -s research/jaw/raw/repos/repos.json
+  - test $(ls research/jaw/raw/repos/readme | wc -l) -ge 150
+  - test -s research/jaw/raw/repos/readme/mateusglucas__ads129x-emulator.md
+kind: script
+origin: Raimonds 2026-10-09 "use local models to scrape recent and useful repos"
+priority: 5
+created: 2026-10-09

@@ -1,0 +1,9363 @@
+(export
+	(version "E")
+	(design
+		(source "/home/neo/theprojects/queue/silent-speech/hw/pod/pod.kicad_sch")
+		(date "2026-10-14T06:37:09")
+		(tool "Eeschema 10.0.6+dfsg-1")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "ss-pod v1: ADS1298 + nRF52840 (NINA-B306) EMG pod")
+				(company "ss-pod")
+				(rev "0.4")
+				(date)
+				(source "pod.kicad_sch")
+				(comment
+					(number "1")
+					(value "Rev 0.4: ADS link moved to NINA outer pins, SPI series R removed (layout); rev 0.3: BIAS 10k, ferrites")
+				)
+				(comment
+					(number "2")
+					(value "Analog front end: TI SBAS459K + ADS1298ECG-FE (SBAU171D) + OpenBCI Cyton (CC BY-SA 4.0)")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "47e6a963-3c6d-4043-ba8e-f06346087fee")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "85d7703d-1ad0-4e14-b5dc-4bd5c8158ef5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "97dda72f-14ff-4b45-b8ab-78174deeae8d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a7e7e024-6316-4872-ae3e-9d185e158820")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0a09c874-c1fe-4894-8d42-f4b1a15d35a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5e1cd48f-0a18-47c2-bb06-2774bf1f0756")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "192620a2-0405-4102-bad2-0b5c8cb77da5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "51346a89-77ff-4e68-a022-c8a1acefb170")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7524a05e-722d-4ed4-88e3-af75b48abaeb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "60adc186-98c1-45fe-84d3-e643cc8a885e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "10nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8ab4dd96-4b6c-4e0c-bab9-4825767b890c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f99f0020-dc6d-4fa0-9cab-c650d73e87f2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8cecd13b-9a11-485b-8867-2214033b74f6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "22uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9af0ce42-0c48-49eb-9db3-1dec18a1bb0c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0502a592-261d-4506-a773-a6a297463beb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b11a4103-be0e-45ea-92eb-d774c4ba27af")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "edbb33f6-41a2-4b97-b813-b6cb2c726c96")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3473138c-ec78-4160-9468-152135f50054")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C19")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "93b08d12-5db4-4043-ac59-3afdaef9a158")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C20")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3f6f7e80-8c3e-487d-9221-b900d19ef931")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C21")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "35ee2a83-00f8-459d-901d-f1195f512826")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C22")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d0f621d2-7a47-4df0-9abb-5c594ea50886")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C23")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b0980fc4-1c2f-46ef-bd4d-040738b4eb6a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C24")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d6d3c407-e479-48c8-8d5b-ee81fe1aaa90")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C25")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ae4a944c-8b34-4535-bcf9-48af32e090fa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C26")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3b1df1bf-e108-4b37-9c6f-c2f1f786bb37")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C27")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3c83288a-f067-4cef-85f8-4f868c01571c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C28")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f43e6d9a-a9d5-483e-bc4a-c3ccbc9e0585")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C29")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c4968eee-a0cd-4c07-a7b7-ceba8d6bd13e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C30")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c00a6aa3-f6a3-48bd-afad-930a2f63a204")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C32")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b7f20ae6-b2bd-48ec-9c3a-48c22f395cfb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C33")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "873cdb0f-5a6d-4734-bb71-6b2a4b67f873")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C34")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "444e661e-9ae8-4317-8730-c0676bd6597f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "TPD4E1B06DCKR")
+			(footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "pod")
+				(part "TPD4E1B06")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a511e647-51bd-4dc0-9ee6-c9305401d72b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "TPD4E1B06DCKR")
+			(footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "pod")
+				(part "TPD4E1B06")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0e6851d4-e4cb-4867-9f6b-0d27bbe32895")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "TPD4E1B06DCKR")
+			(footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "pod")
+				(part "TPD4E1B06")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0c19aed9-c4b2-4224-900e-5e0bbfa67b98")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "SMAJ5.0A (unidirectional TVS)")
+			(footprint "Diode_SMD:D_SMA")
+			(fields
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "D_Zener")
+				(description "Zener diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2141bc53-235e-4028-9372-4d38df25c6b1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB1")
+			(value "BLM15HD182SN1D")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "FerriteBead")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "L ferrite bead inductor filter")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Inductor_* L_* *Ferrite*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fe9b25bc-a6f7-46f6-b11c-9a5e325b3ada")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB2")
+			(value "BLM15HD182SN1D")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "FerriteBead")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "L ferrite bead inductor filter")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Inductor_* L_* *Ferrite*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6fa28e7b-e287-44fa-a4aa-59d786f1ed88")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB3")
+			(value "BLM15HD182SN1D")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "FerriteBead")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "L ferrite bead inductor filter")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Inductor_* L_* *Ferrite*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e3668276-59dc-4ab8-afb1-c79f3c3a290e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB4")
+			(value "BLM15HD182SN1D")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "FerriteBead")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "L ferrite bead inductor filter")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Inductor_* L_* *Ferrite*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dc3431a4-ace8-405a-8b7e-8fdba8c335ea")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB5")
+			(value "BLM15HD182SN1D")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "FerriteBead")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "L ferrite bead inductor filter")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Inductor_* L_* *Ferrite*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4104c518-17fe-45e7-9468-4aff68b8bdef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB6")
+			(value "BLM15HD182SN1D")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "FerriteBead")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "L ferrite bead inductor filter")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Inductor_* L_* *Ferrite*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1ab5f870-bd5d-4f54-afd8-b47ede02c463")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB7")
+			(value "BLM15HD182SN1D")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "FerriteBead")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "L ferrite bead inductor filter")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Inductor_* L_* *Ferrite*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c3b0798e-557f-4c1c-82a2-0cbd74039588")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB8")
+			(value "BLM15HD182SN1D")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "FerriteBead")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "L ferrite bead inductor filter")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Inductor_* L_* *Ferrite*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5f2725d1-1937-4390-9ace-91a098a07e92")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB9")
+			(value "BLM15HD182SN1D")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "FerriteBead")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "L ferrite bead inductor filter")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Inductor_* L_* *Ferrite*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "34956671-bade-423c-8bf1-18bf2bbfcadc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB10")
+			(value "BLM15HD182SN1D")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "FerriteBead")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "L ferrite bead inductor filter")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Inductor_* L_* *Ferrite*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "497d5aec-51c8-4592-8080-b8a7f1878d48")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "M2 NPTH")
+			(footprint "pod:M2_NPTH_clamp")
+			(fields
+				(field
+					(name "Footprint") "pod:M2_NPTH_clamp")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "20e75eff-6cc1-4159-9436-520ff8d82841")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "M2 NPTH")
+			(footprint "pod:M2_NPTH_clamp")
+			(fields
+				(field
+					(name "Footprint") "pod:M2_NPTH_clamp")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "43e4f16f-d096-4289-8bb2-8da5cee7cabc")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "LiPo 1S protected")
+			(footprint "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0a1fd0dd-1b4b-4f2a-a788-d3028c90db18")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "SWD Tag-Connect TC2030-NL")
+			(footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+			(fields
+				(field
+					(name "Footprint") "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x06")
+				(description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d7edefa0-ad24-4b02-8184-3d5eccbf8455")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P1")
+			(value "pogo E1")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dbedcc9b-2c9d-4ef4-9979-b06aebc03006")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P2")
+			(value "pogo E2")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "955cf995-428a-4e64-96b5-ffcdaf823918")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P3")
+			(value "pogo E3")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9148ced0-30e5-4288-a4b3-32a9fd0f2253")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P4")
+			(value "pogo E4")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a958ffd2-8a54-4099-a842-3627b98bc5c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P5")
+			(value "pogo E5")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "13a56d6f-0d5b-4822-894a-42223ac4e707")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P6")
+			(value "pogo E6")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3b32c98a-1332-430d-b315-ca649f583e17")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P7")
+			(value "pogo E7")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9cc22d22-ca9a-488a-9ea5-bade38bc46c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P8")
+			(value "pogo E8")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6de1bef9-5afd-4277-a8f5-3dbf754f01f2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P9")
+			(value "pogo REF_ELEC")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "96066bdb-96e7-49a1-8d86-24fde8c95570")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P10")
+			(value "pogo BIAS")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d03ef346-2fa4-4475-938f-2231f3aad843")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P11")
+			(value "pogo VBUS")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "861fecb0-b933-4082-b62d-aaf0d1fba0f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P12")
+			(value "pogo GND")
+			(footprint "pod:Harwin_P70-1000045R_pad2.2")
+			(fields
+				(field
+					(name "Footprint") "pod:Harwin_P70-1000045R_pad2.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "450e583d-4e6a-43cc-ae39-5cc9b4a0a00e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q2")
+			(value "AO3401A")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "AO3401A")
+				(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "P-Channel MOSFET")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "63ac7fc0-30f1-478f-8971-363588580f33")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e696bd5b-b815-4346-b51e-cf374e6ec308")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7210bfe1-571d-4662-9db4-c4188e146ba0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3cc6808e-6700-491d-8329-d557618e80a7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "43b926aa-44d7-4364-9d22-e2b405e9f7ca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2d6cb399-b8b3-483b-be6d-e862a1bfd27e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "97bb0188-22ba-461f-b1e4-644cc54619d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6350fc98-970b-4786-9fb5-99bab3ec5f74")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "11334f6f-3987-4501-ae2a-dd4e636e2e00")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "62f1cc56-f932-4f41-88dc-d965d2b7b5cf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "392k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "05d18e25-1b88-4ce0-8c8b-dc74e5cc90a9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9e3b00a3-fbfc-4b17-9de6-97d5d765e08f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "74450ffc-035a-46d3-8031-209c0f622517")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "1M")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "885cccc5-cc41-4b62-889b-7e3ed928795b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "1M")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "30d118d0-1849-4518-b7b3-994f4f44a0db")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "96be3a39-ee8f-4f17-8e8b-8eed301b96fb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0037b1a9-7b8f-4445-9498-97c96c82fdb1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R21")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "25300125-daf1-4fea-a83e-7772c797e7ea")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R22")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f70dde18-d396-42ac-8668-ebf5bb7750ce")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R23")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ee96c5ea-8d75-4feb-92a1-a93fb647b8a8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R24")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "13a1b811-2880-4b3b-9948-2e45fd8f8832")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R25")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c88de5c3-d35d-4707-a166-e4321a51a28f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP1")
+			(value "CLK (2-chip sync)")
+			(footprint "pod:TestPad_D0.8mm")
+			(fields
+				(field
+					(name "Footprint") "pod:TestPad_D0.8mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bae07fc5-504f-4ac2-9f3f-297775cc877b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP2")
+			(value "START")
+			(footprint "pod:TestPad_D0.8mm")
+			(fields
+				(field
+					(name "Footprint") "pod:TestPad_D0.8mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e0a4d7b5-9114-4e16-a265-6bdfe58cceb9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP8")
+			(value "EXP1 P0.28/AIN4")
+			(footprint "pod:TestPad_D0.8mm")
+			(fields
+				(field
+					(name "Footprint") "pod:TestPad_D0.8mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7b2e49b1-468f-498c-bd6d-cea99a371ef6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP9")
+			(value "EXP2 P0.02/AIN0")
+			(footprint "pod:TestPad_D0.8mm")
+			(fields
+				(field
+					(name "Footprint") "pod:TestPad_D0.8mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fc2ce881-8932-4aed-a48c-146015f5a57c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP10")
+			(value "EXP3 P0.31/AIN7")
+			(footprint "pod:TestPad_D0.8mm")
+			(fields
+				(field
+					(name "Footprint") "pod:TestPad_D0.8mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9e84247c-5bce-48f3-bb07-1b4140f6e895")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP11")
+			(value "EXP4 P1.12")
+			(footprint "pod:TestPad_D0.8mm")
+			(fields
+				(field
+					(name "Footprint") "pod:TestPad_D0.8mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8a31058e-ca3c-414d-b31a-848b9504f018")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP12")
+			(value "EXP5 P1.13")
+			(footprint "pod:TestPad_D0.8mm")
+			(fields
+				(field
+					(name "Footprint") "pod:TestPad_D0.8mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3239e513-2760-494a-9d28-5e6c1cdc4faa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP13")
+			(value "EXP 3V3")
+			(footprint "pod:TestPad_D0.8mm")
+			(fields
+				(field
+					(name "Footprint") "pod:TestPad_D0.8mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "83206f72-d1c2-4b87-80e9-b1975924f077")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP14")
+			(value "EXP GND")
+			(footprint "pod:TestPad_D0.8mm")
+			(fields
+				(field
+					(name "Footprint") "pod:TestPad_D0.8mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "56e85601-187a-4a58-906f-35107bc8f675")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "ADS1298IPAG")
+			(footprint "Package_QFP:TQFP-64_10x10mm_P0.5mm")
+			(fields
+				(field
+					(name "Footprint") "Package_QFP:TQFP-64_10x10mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Analog_ADC")
+				(part "ADS1298xPAG")
+				(description "ADS1298 Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements, TQFP-64")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "24bit ADC PGA SPI")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TQFP*10x10mm*P0.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "589879a4-8eab-450f-8b3a-737b240dfaa2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "55")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "59")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "56")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "57")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "58")
+						)
+						(pin
+							(num "54")
+						)
+						(pin
+							(num "53")
+						)
+						(pin
+							(num "50")
+						)
+						(pin
+							(num "48")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "51")
+						)
+						(pin
+							(num "49")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "64")
+						)
+						(pin
+							(num "63")
+						)
+						(pin
+							(num "62")
+						)
+						(pin
+							(num "61")
+						)
+						(pin
+							(num "60")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "52")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "31")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "NINA-B306-00B")
+			(footprint "pod:u-blox_NINA-B306")
+			(fields
+				(field
+					(name "Footprint") "pod:u-blox_NINA-B306")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "pod")
+				(part "NINA-B306")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8eb1932f-dde6-4d8b-88f9-d7bc5fd7ff2c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "54")
+						)
+						(pin
+							(num "55")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "53")
+						)
+						(pin
+							(num "56")
+						)
+						(pin
+							(num "57")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "48")
+						)
+						(pin
+							(num "49")
+						)
+						(pin
+							(num "50")
+						)
+						(pin
+							(num "51")
+						)
+						(pin
+							(num "52")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "TPS7A2033PDBVR (LDO1, AVDD)")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "TPS7A20xxxDBV")
+				(description "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Output LDO Low-Noise")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a6135736-649b-46ba-a324-c99570ab6ad2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "TPS7A2033PDBVR (LDO2, +3V3)")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "TPS7A20xxxDBV")
+				(description "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Output LDO Low-Noise")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e1be8ea8-0f02-42cb-bfaf-e2bb6bb85eec")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "MCP73831T-2ACI/OT")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Battery_Management")
+				(part "MCP73831-2-OT")
+				(description "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "battery charger lithium")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9c262a61-0824-4e8c-925a-c73d228c4f8d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "W25Q128JVPIQ (16 MB)")
+			(footprint "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Memory_Flash")
+				(part "W25Q128JVP")
+				(description "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "pod")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pod.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "flash memory SPI")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "WSON*1EP*6x5mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7ae2615a-e0de-4570-a3f3-85eb78e437c5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Analog_ADC")
+			(part "ADS1298xPAG")
+			(description "ADS1298 Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements, TQFP-64")
+			(docs "http://www.ti.com/lit/ds/symlink/ads1298.pdf")
+			(footprints
+				(fp "TQFP*10x10mm*P0.5mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ADS1298xPAG")
+				(field
+					(name "Footprint") "Package_QFP:TQFP-64_10x10mm_P0.5mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ads1298.pdf")
+				(field
+					(name "Description") "ADS1298 Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements, TQFP-64")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN8N")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "IN8P")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "IN7N")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "IN7P")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "IN6N")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "IN6P")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "IN5N")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "IN5P")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "IN4N")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "IN4P")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "IN3N")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "IN3P")
+					(type "input")
+				)
+				(pin
+					(num "13")
+					(name "IN2N")
+					(type "input")
+				)
+				(pin
+					(num "14")
+					(name "IN2P")
+					(type "input")
+				)
+				(pin
+					(num "15")
+					(name "IN1N")
+					(type "input")
+				)
+				(pin
+					(num "16")
+					(name "IN1P")
+					(type "input")
+				)
+				(pin
+					(num "17")
+					(name "TESTP_PACE_OUT1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "TESTP_PACE_OUT2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "AVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "20")
+					(name "AVSS")
+					(type "power_in")
+				)
+				(pin
+					(num "21")
+					(name "AVDD")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "AVDD")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "AVSS")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "VREFP")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "VREFN")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "VCAP4")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "28")
+					(name "VCAP1")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "30")
+					(name "VCAP2")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "RESV1")
+					(type "input")
+				)
+				(pin
+					(num "32")
+					(name "AVSS")
+					(type "passive")
+				)
+				(pin
+					(num "33")
+					(name "DGND")
+					(type "power_in")
+				)
+				(pin
+					(num "34")
+					(name "DIN")
+					(type "input")
+				)
+				(pin
+					(num "35")
+					(name "~{PWDN}")
+					(type "input")
+				)
+				(pin
+					(num "36")
+					(name "~{RESET}")
+					(type "input")
+				)
+				(pin
+					(num "37")
+					(name "CLK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "38")
+					(name "START")
+					(type "input")
+				)
+				(pin
+					(num "39")
+					(name "~{CS}")
+					(type "input")
+				)
+				(pin
+					(num "40")
+					(name "SCLK")
+					(type "input")
+				)
+				(pin
+					(num "41")
+					(name "DAISY_IN")
+					(type "input")
+				)
+				(pin
+					(num "42")
+					(name "GPIO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "43")
+					(name "DOUT")
+					(type "output")
+				)
+				(pin
+					(num "44")
+					(name "GPIO2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "45")
+					(name "GPIO3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "46")
+					(name "GPIO4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "47")
+					(name "~{DRDY}")
+					(type "output")
+				)
+				(pin
+					(num "48")
+					(name "DVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "49")
+					(name "DGND")
+					(type "passive")
+				)
+				(pin
+					(num "50")
+					(name "DVDD")
+					(type "passive")
+				)
+				(pin
+					(num "51")
+					(name "DGND")
+					(type "passive")
+				)
+				(pin
+					(num "52")
+					(name "CLKSEL")
+					(type "input")
+				)
+				(pin
+					(num "53")
+					(name "AVSS1")
+					(type "power_in")
+				)
+				(pin
+					(num "54")
+					(name "AVDD1")
+					(type "power_in")
+				)
+				(pin
+					(num "55")
+					(name "VCAP3")
+					(type "passive")
+				)
+				(pin
+					(num "56")
+					(name "AVDD")
+					(type "passive")
+				)
+				(pin
+					(num "57")
+					(name "AVSS")
+					(type "passive")
+				)
+				(pin
+					(num "58")
+					(name "AVSS")
+					(type "passive")
+				)
+				(pin
+					(num "59")
+					(name "AVDD")
+					(type "passive")
+				)
+				(pin
+					(num "60")
+					(name "RLDREF")
+					(type "input")
+				)
+				(pin
+					(num "61")
+					(name "RLDINV")
+					(type "input")
+				)
+				(pin
+					(num "62")
+					(name "RLDIN")
+					(type "input")
+				)
+				(pin
+					(num "63")
+					(name "RLDOUT")
+					(type "output")
+				)
+				(pin
+					(num "64")
+					(name "WCT")
+					(type "output")
+				)
+			)
+		)
+		(libpart
+			(lib "Battery_Management")
+			(part "MCP73831-2-OT")
+			(description "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package")
+			(docs "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MCP73831-2-OT")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf")
+				(field
+					(name "Description") "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "STAT")
+					(type "tri_state")
+				)
+				(pin
+					(num "2")
+					(name "V_{SS}")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "V_{BAT}")
+					(type "power_out")
+				)
+				(pin
+					(num "4")
+					(name "V_{DD}")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "PROG")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "TestPoint")
+			(description "test point")
+			(footprints
+				(fp "Pin*")
+				(fp "Test*")
+			)
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TestPoint")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x01")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x01")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x02")
+			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x06")
+			(description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x06")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "D_Zener")
+			(description "Zener diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Zener")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Zener diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "FerriteBead")
+			(description "Ferrite bead")
+			(footprints
+				(fp "Inductor_*")
+				(fp "L_*")
+				(fp "*Ferrite*")
+			)
+			(fields
+				(field
+					(name "Reference") "FB")
+				(field
+					(name "Value") "FerriteBead")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ferrite bead")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "Memory_Flash")
+			(part "W25Q128JVP")
+			(description "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8")
+			(docs "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf")
+			(footprints
+				(fp "WSON*1EP*6x5mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "W25Q128JVP")
+				(field
+					(name "Footprint") "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm")
+				(field
+					(name "Datasheet") "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf")
+				(field
+					(name "Description") "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~{CS}")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "DO/IO_{1}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "~{WP}/IO_{2}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "DI/IO_{0}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "CLK")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "~{HOLD}/~{RESET}/IO_{3}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "9")
+					(name "EP")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Regulator_Linear")
+			(part "TPS7A20xxxDBV")
+			(description "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23")
+			(docs "https://www.ti.com/lit/ds/symlink/tps7a20.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS7A20xxxDBV")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps7a20.pdf")
+				(field
+					(name "Description") "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "OUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Transistor_FET")
+			(part "AO3401A")
+			(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			(docs "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "AO3401A")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf")
+				(field
+					(name "Description") "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "pod")
+			(part "NINA-B306")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "NINA-B306")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GPIO_1/P0.13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "GPIO_2/P0.14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "GPIO_3/P0.15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "GPIO_4/P0.16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "GPIO_5/P0.24")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "GPIO_7/P0.25")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "SWO/P1.00")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "VCC_IO")
+					(type "power_in")
+				)
+				(pin
+					(num "10")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "11")
+					(name "SWDCLK")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "13")
+					(name "ANT(B301_only)")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "15")
+					(name "SWDIO")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "GPIO_16/P0.03/AIN1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "GPIO_17/P0.28")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "GPIO_18/P0.02")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "RESET_N/P0.18")
+					(type "input")
+				)
+				(pin
+					(num "20")
+					(name "GPIO_20/P0.31")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "GPIO_21/P1.12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "GPIO_22/P1.13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "GPIO_23/P0.29")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "GPIO_24/P0.30")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "GPIO_25/P0.04")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "27")
+					(name "GPIO_27/P0.05")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "NFC1/P0.09")
+					(type "bidirectional")
+				)
+				(pin
+					(num "29")
+					(name "NFC2/P0.10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "31")
+					(name "VBUS(5V_in)")
+					(type "passive")
+				)
+				(pin
+					(num "32")
+					(name "GPIO_32/P0.11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "33")
+					(name "GPIO_33/P1.09")
+					(type "bidirectional")
+				)
+				(pin
+					(num "34")
+					(name "GPIO_34/P1.08")
+					(type "bidirectional")
+				)
+				(pin
+					(num "35")
+					(name "GPIO_35/P1.01")
+					(type "bidirectional")
+				)
+				(pin
+					(num "36")
+					(name "GPIO_36/P1.02")
+					(type "bidirectional")
+				)
+				(pin
+					(num "37")
+					(name "GPIO_37/P1.03")
+					(type "bidirectional")
+				)
+				(pin
+					(num "38")
+					(name "GPIO_38/P1.10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "39")
+					(name "GPIO_39/P1.11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "40")
+					(name "GPIO_40/P1.15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "41")
+					(name "GPIO_41/P1.14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "42")
+					(name "GPIO_42/P0.26")
+					(type "bidirectional")
+				)
+				(pin
+					(num "43")
+					(name "GPIO_43/P0.06")
+					(type "bidirectional")
+				)
+				(pin
+					(num "44")
+					(name "GPIO_44/P0.27")
+					(type "bidirectional")
+				)
+				(pin
+					(num "45")
+					(name "GPIO_45/P0.07")
+					(type "bidirectional")
+				)
+				(pin
+					(num "46")
+					(name "GPIO_46/P0.12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "47")
+					(name "GPIO_47/P0.23")
+					(type "bidirectional")
+				)
+				(pin
+					(num "48")
+					(name "GPIO_48/P0.21")
+					(type "bidirectional")
+				)
+				(pin
+					(num "49")
+					(name "GPIO_49/P0.22")
+					(type "bidirectional")
+				)
+				(pin
+					(num "50")
+					(name "GPIO_50/P0.20")
+					(type "bidirectional")
+				)
+				(pin
+					(num "51")
+					(name "GPIO_51/P0.17")
+					(type "bidirectional")
+				)
+				(pin
+					(num "52")
+					(name "GPIO_52/P0.19")
+					(type "bidirectional")
+				)
+				(pin
+					(num "53")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "54")
+					(name "USB_DP")
+					(type "bidirectional")
+				)
+				(pin
+					(num "55")
+					(name "USB_DM")
+					(type "bidirectional")
+				)
+				(pin
+					(num "56")
+					(name "EGP")
+					(type "power_in")
+				)
+				(pin
+					(num "57")
+					(name "EAGP")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "pod")
+			(part "TPD4E1B06")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "TPD4E1B06")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IO1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "IO2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "IO3")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "IO4")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "NC")
+					(type "no_connect")
+				)
+			)
+		)
+	)
+	(libraries)
+	(nets
+		(net
+			(code "1")
+			(name "+3.3VA")
+			(class "Default")
+			(node
+				(ref "C18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C26")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "TESTP_PACE_OUT1_17")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "TESTP_PACE_OUT2_18")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "AVDD_19")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "AVDD_21")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "AVDD_22")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "54")
+				(pinfunction "AVDD1_54")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "56")
+				(pinfunction "AVDD_56")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "59")
+				(pinfunction "AVDD_59")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "62")
+				(pinfunction "RLDIN_62")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "2")
+			(name "+3V3")
+			(class "Default")
+			(node
+				(ref "C20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C27")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C34")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP13")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "48")
+				(pinfunction "DVDD_48")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "50")
+				(pinfunction "DVDD_50")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "52")
+				(pinfunction "CLKSEL_52")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "10")
+				(pinfunction "VCC_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "VCC_IO_9")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U6")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "+BATT")
+			(class "Power")
+			(node
+				(ref "C24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C29")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "V_{BAT}_3")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "4")
+			(name "/ADS_PWDN")
+			(class "Default")
+			(node
+				(ref "R20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "35")
+				(pinfunction "~{PWDN}_35")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "GPIO_7/P0.25_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "5")
+			(name "/ADS_RESET")
+			(class "Default")
+			(node
+				(ref "R23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "36")
+				(pinfunction "~{RESET}_36")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "GPIO_5/P0.24_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "6")
+			(name "/BAT_RAW")
+			(class "Power")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/BAT_SENSE")
+			(class "Default")
+			(node
+				(ref "C30")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "16")
+				(pinfunction "GPIO_16/P0.03/AIN1_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "/BIAS")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "IO2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P10")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/BIAS_F")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/CLK_SYNC")
+			(class "Default")
+			(node
+				(ref "TP1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "37")
+				(pinfunction "CLK_37")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "11")
+			(name "/CS_N")
+			(class "Default")
+			(node
+				(ref "R21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "39")
+				(pinfunction "~{CS}_39")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "GPIO_3/P0.15_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "/DRDY")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "47")
+				(pinfunction "~{DRDY}_47")
+				(pintype "output")
+			)
+			(node
+				(ref "U2")
+				(pin "25")
+				(pinfunction "GPIO_25/P0.04_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "13")
+			(name "/E1")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "IO1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/E1_F")
+			(class "Default")
+			(node
+				(ref "FB1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/E2")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "IO2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/E2_F")
+			(class "Default")
+			(node
+				(ref "FB2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/E3")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "4")
+				(pinfunction "IO3_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/E3_F")
+			(class "Default")
+			(node
+				(ref "FB3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/E4")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "5")
+				(pinfunction "IO4_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "/E4_F")
+			(class "Default")
+			(node
+				(ref "FB4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "/E5")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "IO1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "/E5_F")
+			(class "Default")
+			(node
+				(ref "FB5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/E6")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "IO2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/E6_F")
+			(class "Default")
+			(node
+				(ref "FB6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/E7")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "4")
+				(pinfunction "IO3_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P7")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "/E7_F")
+			(class "Default")
+			(node
+				(ref "FB7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "/E8")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "5")
+				(pinfunction "IO4_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P8")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "/E8_F")
+			(class "Default")
+			(node
+				(ref "FB8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "/EXP1")
+			(class "Default")
+			(node
+				(ref "TP8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "17")
+				(pinfunction "GPIO_17/P0.28_17")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "30")
+			(name "/EXP2")
+			(class "Default")
+			(node
+				(ref "TP9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "18")
+				(pinfunction "GPIO_18/P0.02_18")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "31")
+			(name "/EXP3")
+			(class "Default")
+			(node
+				(ref "TP10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "20")
+				(pinfunction "GPIO_20/P0.31_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "32")
+			(name "/EXP4")
+			(class "Default")
+			(node
+				(ref "TP11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "21")
+				(pinfunction "GPIO_21/P1.12_21")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "33")
+			(name "/EXP5")
+			(class "Default")
+			(node
+				(ref "TP12")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "22")
+				(pinfunction "GPIO_22/P1.13_22")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "34")
+			(name "/IN1P")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "IN1P_16")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "35")
+			(name "/IN2P")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "IN2P_14")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "36")
+			(name "/IN3P")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "IN3P_12")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "37")
+			(name "/IN4P")
+			(class "Default")
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "IN4P_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "38")
+			(name "/IN5P")
+			(class "Default")
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "IN5P_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "39")
+			(name "/IN6P")
+			(class "Default")
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "IN6P_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "40")
+			(name "/IN7P")
+			(class "Default")
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "IN7P_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "41")
+			(name "/IN8P")
+			(class "Default")
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "IN8P_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "42")
+			(name "/MISO")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "43")
+				(pinfunction "DOUT_43")
+				(pintype "output")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "GPIO_1/P0.13_1")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "43")
+			(name "/MOD_RESET")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "19")
+				(pinfunction "RESET_N/P0.18_19")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "44")
+			(name "/MOSI")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "34")
+				(pinfunction "DIN_34")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "SWO/P1.00_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "45")
+			(name "/PROG")
+			(class "Default")
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "5")
+				(pinfunction "PROG_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "46")
+			(name "/QSPI_CLK")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "52")
+				(pinfunction "GPIO_52/P0.19_52")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "6")
+				(pinfunction "CLK_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "47")
+			(name "/QSPI_CS")
+			(class "Default")
+			(node
+				(ref "R24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "51")
+				(pinfunction "GPIO_51/P0.17_51")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "~{CS}_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "48")
+			(name "/QSPI_IO0")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "50")
+				(pinfunction "GPIO_50/P0.20_50")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "5")
+				(pinfunction "DI/IO_{0}_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "49")
+			(name "/QSPI_IO1")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "48")
+				(pinfunction "GPIO_48/P0.21_48")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "DO/IO_{1}_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "50")
+			(name "/QSPI_IO2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "49")
+				(pinfunction "GPIO_49/P0.22_49")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "~{WP}/IO_{2}_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "51")
+			(name "/QSPI_IO3")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "47")
+				(pinfunction "GPIO_47/P0.23_47")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "7")
+				(pinfunction "~{HOLD}/~{RESET}/IO_{3}_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "52")
+			(name "/REF")
+			(class "Default")
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "IN8N_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "IN3N_11")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "IN2N_13")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "IN1N_15")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "IN7N_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "IN6N_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "IN5N_7")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "IN4N_9")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "53")
+			(name "/REF_ELEC")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "IO1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P9")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "54")
+			(name "/REF_F")
+			(class "Default")
+			(node
+				(ref "FB9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "55")
+			(name "/RLDINV")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "61")
+				(pinfunction "RLDINV_61")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "56")
+			(name "/RLDOUT")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "63")
+				(pinfunction "RLDOUT_63")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "57")
+			(name "/RLDREF")
+			(class "Default")
+			(node
+				(ref "C32")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "60")
+				(pinfunction "RLDREF_60")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "58")
+			(name "/SCLK")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "40")
+				(pinfunction "SCLK_40")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "GPIO_2/P0.14_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "59")
+			(name "/START")
+			(class "Default")
+			(node
+				(ref "R22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "38")
+				(pinfunction "START_38")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "GPIO_4/P0.16_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "60")
+			(name "/SWDCLK")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "11")
+				(pinfunction "SWDCLK_11")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "61")
+			(name "/SWDIO")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "15")
+				(pinfunction "SWDIO_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "62")
+			(name "/VBUS_MOD")
+			(class "Default")
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "31")
+				(pinfunction "VBUS(5V_in)_31")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "63")
+			(name "/VCAP1")
+			(class "Default")
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "28")
+				(pinfunction "VCAP1_28")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "64")
+			(name "/VCAP2")
+			(class "Default")
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "30")
+				(pinfunction "VCAP2_30")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "65")
+			(name "/VCAP3")
+			(class "Default")
+			(node
+				(ref "C16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "55")
+				(pinfunction "VCAP3_55")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "66")
+			(name "/VCAP4")
+			(class "Default")
+			(node
+				(ref "C17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "VCAP4_26")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "67")
+			(name "/VREFP")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "VREFP_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "68")
+			(name "/WCT")
+			(class "Default")
+			(node
+				(ref "C33")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "64")
+				(pinfunction "WCT_64")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "69")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C27")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C28")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C29")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C30")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C32")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C33")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C34")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "P12")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP14")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "AVSS_20")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "AVSS_23")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "VREFN_25")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "31")
+				(pinfunction "RESV1_31")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "32")
+				(pinfunction "AVSS_32")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "33")
+				(pinfunction "DGND_33")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "41")
+				(pinfunction "DAISY_IN_41")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "42")
+				(pinfunction "GPIO1_42")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "44")
+				(pinfunction "GPIO2_44")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "45")
+				(pinfunction "GPIO3_45")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "46")
+				(pinfunction "GPIO4_46")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "49")
+				(pinfunction "DGND_49")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "51")
+				(pinfunction "DGND_51")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "53")
+				(pinfunction "AVSS1_53")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "57")
+				(pinfunction "AVSS_57")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "58")
+				(pinfunction "AVSS_58")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "12")
+				(pinfunction "GND_12")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "14")
+				(pinfunction "GND_14")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "26")
+				(pinfunction "GND_26")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "30")
+				(pinfunction "GND_30")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "53")
+				(pinfunction "GND_53")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "56")
+				(pinfunction "EGP_56")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "57")
+				(pinfunction "EAGP_57")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pinfunction "V_{SS}_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "9")
+				(pinfunction "EP_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "70")
+			(name "VBUS")
+			(class "Power")
+			(node
+				(ref "C28")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P11")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "4")
+				(pinfunction "V_{DD}_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(D2-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(D3-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(D4-IO3-Pad4)")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "4")
+				(pinfunction "IO3_4")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(D4-IO4-Pad5)")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "5")
+				(pinfunction "IO4_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "75")
+			(name "unconnected-(D4-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "76")
+			(name "unconnected-(J3-Pin_6-Pad6)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "77")
+			(name "unconnected-(U1-NC-Pad27)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "NC_27")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "78")
+			(name "unconnected-(U1-NC-Pad29)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "NC_29")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "79")
+			(name "unconnected-(U2-ANT(B301_only)-Pad13)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "13")
+				(pinfunction "ANT(B301_only)_13")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "80")
+			(name "unconnected-(U2-GPIO_23{slash}P0.29-Pad23)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "23")
+				(pinfunction "GPIO_23/P0.29_23")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "81")
+			(name "unconnected-(U2-GPIO_24{slash}P0.30-Pad24)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "24")
+				(pinfunction "GPIO_24/P0.30_24")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "82")
+			(name "unconnected-(U2-GPIO_27{slash}P0.05-Pad27)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "27")
+				(pinfunction "GPIO_27/P0.05_27")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "83")
+			(name "unconnected-(U2-GPIO_32{slash}P0.11-Pad32)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "32")
+				(pinfunction "GPIO_32/P0.11_32")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "84")
+			(name "unconnected-(U2-GPIO_33{slash}P1.09-Pad33)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "33")
+				(pinfunction "GPIO_33/P1.09_33")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "85")
+			(name "unconnected-(U2-GPIO_34{slash}P1.08-Pad34)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "34")
+				(pinfunction "GPIO_34/P1.08_34")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "86")
+			(name "unconnected-(U2-GPIO_35{slash}P1.01-Pad35)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "35")
+				(pinfunction "GPIO_35/P1.01_35")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "87")
+			(name "unconnected-(U2-GPIO_36{slash}P1.02-Pad36)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "36")
+				(pinfunction "GPIO_36/P1.02_36")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "88")
+			(name "unconnected-(U2-GPIO_37{slash}P1.03-Pad37)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "37")
+				(pinfunction "GPIO_37/P1.03_37")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "89")
+			(name "unconnected-(U2-GPIO_38{slash}P1.10-Pad38)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "38")
+				(pinfunction "GPIO_38/P1.10_38")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "90")
+			(name "unconnected-(U2-GPIO_39{slash}P1.11-Pad39)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "39")
+				(pinfunction "GPIO_39/P1.11_39")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "91")
+			(name "unconnected-(U2-GPIO_40{slash}P1.15-Pad40)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "40")
+				(pinfunction "GPIO_40/P1.15_40")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "92")
+			(name "unconnected-(U2-GPIO_41{slash}P1.14-Pad41)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "41")
+				(pinfunction "GPIO_41/P1.14_41")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "93")
+			(name "unconnected-(U2-GPIO_42{slash}P0.26-Pad42)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "42")
+				(pinfunction "GPIO_42/P0.26_42")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "94")
+			(name "unconnected-(U2-GPIO_43{slash}P0.06-Pad43)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "43")
+				(pinfunction "GPIO_43/P0.06_43")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "95")
+			(name "unconnected-(U2-GPIO_44{slash}P0.27-Pad44)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "44")
+				(pinfunction "GPIO_44/P0.27_44")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "96")
+			(name "unconnected-(U2-GPIO_45{slash}P0.07-Pad45)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "45")
+				(pinfunction "GPIO_45/P0.07_45")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "97")
+			(name "unconnected-(U2-GPIO_46{slash}P0.12-Pad46)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "46")
+				(pinfunction "GPIO_46/P0.12_46")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "98")
+			(name "unconnected-(U2-NFC1{slash}P0.09-Pad28)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "28")
+				(pinfunction "NFC1/P0.09_28")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "99")
+			(name "unconnected-(U2-NFC2{slash}P0.10-Pad29)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "29")
+				(pinfunction "NFC2/P0.10_29")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "100")
+			(name "unconnected-(U2-USB_DM-Pad55)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "55")
+				(pinfunction "USB_DM_55")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "101")
+			(name "unconnected-(U2-USB_DP-Pad54)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "54")
+				(pinfunction "USB_DP_54")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "102")
+			(name "unconnected-(U3-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "103")
+			(name "unconnected-(U4-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "104")
+			(name "unconnected-(U5-STAT-Pad1)")
+			(class "Default")
+			(node
+				(ref "U5")
+				(pin "1")
+				(pinfunction "STAT_1")
+				(pintype "tri_state+no_connect")
+			)
+		)
+	)
+)

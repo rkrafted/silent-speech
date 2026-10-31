@@ -1,0 +1,11 @@
+(footprint "NINA_placeholder"
+	(version 20241229)
+	(generator "pod")
+	(layer "F.Cu")
+	(descr "PLACEHOLDER body only, NO PADS. Never route or order with this.")
+	(attr smd)
+	(property "Reference" "REF**" (at 0 0 0) (layer "F.SilkS") (effects (font (size 0.6 0.6) (thickness 0.1))))
+	(property "Value" "PLACEHOLDER" (at 0 2 0) (layer "F.Fab") (effects (font (size 0.6 0.6) (thickness 0.1))))
+	(fp_rect (start -5 -7.5) (end 5 7.5) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab"))
+	(fp_rect (start -5.25 -7.75) (end 5.25 7.75) (stroke (width 0.05) (type solid)) (fill no) (layer "F.CrtYd"))
+)
